@@ -12,7 +12,7 @@
 	<context:component-scan base-package="com.shn"/>
 	<mvc:annotation-driven/>
 
-	<mvc:view-controller path="/webpages/index.jsp"/>
+	<mvc:view-controller path="index.jsp"/>
 
 	<bean id="viewResolver"
 		  class="org.springframework.web.servlet.view.InternalResourceViewResolver">
